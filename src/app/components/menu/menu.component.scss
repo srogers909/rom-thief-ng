@@ -1,0 +1,23 @@
+@use "../../styles/primary-palette";
+
+.menu {
+  background-color: primary-palette.$dark-primary;
+  color: primary-palette.$lightest;
+  height: 35px;
+
+  .menuitem {
+    margin-left: 35px;
+    display: inline-block;
+
+    a {
+      position: relative;
+      top: 2px;
+      font-size: 1.3rem;
+      color: primary-palette.$lightest;
+    }
+  }
+
+  .first {
+    margin-left: 15px;
+  }
+}

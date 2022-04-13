@@ -1,0 +1,14 @@
+@use "../../styles/primary-palette";
+
+h2 {
+  margin-left: 12px;
+  display: block;
+  font-size: 2.5rem;
+
+  a {
+    color: primary-palette.$darkest;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
